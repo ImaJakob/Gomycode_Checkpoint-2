@@ -1,0 +1,245 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Inconsolata", monospace;
+}
+
+/* navbar section */
+.navbar_section {
+    padding: 0.45px ;
+    background-color: rgb(217, 217, 219)
+} 
+
+ .navbar_section .navbar {
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   background-color: whitesmoke;  
+ }
+
+.restaurant_name {
+    display: flex;
+    justify-items: space-between;
+    align-content: center;
+    gap: 40px;
+    font-size: 20px;
+}
+
+.restaurant_name:hover {
+    transform: rotate(8 deg);
+    color: rgb(209, 158, 91);
+}
+
+.nav_links_items  {
+    display: flex;
+    list-style: none;
+   align-items: center;
+   justify-content: center;
+   gap: 20px;  
+   font-size: 20px;
+   margin-left: 15px;
+}
+
+.nav_links_items a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav_links_items a:hover {
+    transform: rotate(6 deg);
+    color: rgb(209, 158, 91);
+  
+}
+
+/* hero section */
+
+
+.main_page .image_container {
+    /* margin-bottom: 30px; */
+    background-size: 100px;
+    height: 50vh;
+    width: 50vh;
+    display: inline;
+    position: relative;
+}
+
+.main_page .image_container img {
+    width: 100%;
+    /* padding-bottom: 25px; */
+}
+
+.main_page .image_container .overlay_text {
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    font-size: 50px;
+    font-style: italic;
+    text-align: end;
+    color: rgb(238, 182, 70);
+   
+}
+
+
+/* Hero section */
+.hero .hero_section {
+    padding: 10px;
+    margin: 20px;
+    background-color: whitesmoke;
+    background-size: cover;
+    
+}
+
+.menu_image {
+    padding-top: 30px;
+    margin: 30px auto;
+    width: 90%;
+    padding-bottom: 45px;
+   
+}
+
+.menu_image img {
+    max-width: 600px;
+    float: left;
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin-right: 35px;
+}
+
+.menu_info h2 {
+    font-size: 42px;
+}
+
+.menu_info  li strong {
+    font-size: 20px;
+}
+
+.menu_info ul li  {
+    font-size: 17px;
+}
+
+
+.menu_image_2 {
+    padding-top: 45px;
+    margin: 30px auto;
+    width: 90%; 
+    padding-bottom: 40px;
+
+}
+
+
+.menu_image_2 img {
+    float: right;
+    max-width: 600px;
+    margin-left: 35px;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+
+.menu_info_2 h2 {
+    font-size: 42px;
+}
+
+.menu_info_2  li strong {
+    font-size: 20px;
+}
+
+.menu_info_2 ul li {
+    font-size: 17px;
+}
+
+.menu_image_3 {
+    padding-top: 45px;
+    margin: 30px auto;
+    width: 90%; 
+    padding-bottom: 40px;   
+}
+
+.menu_image_3  img {
+    float: left;
+    max-width: 600px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin-right: 40px;   
+}
+
+.menu_info_3 h2 {
+    font-size: 45px;
+}
+.menu_info_3  li strong {
+    font-size: 20px;
+}
+
+.menu_info_3 ul li {
+    font-size: 17px;
+}
+
+/* Contact section */
+.contact {
+    position: relative;
+    height: 20vh;
+    padding: 30px 50px;
+    margin-bottom: 35%;
+    
+    
+}
+.contact select {
+    background-color:whitesmoke  ;
+    background-size: cover;
+}
+
+  .contact .contact_section h2 {
+    font-size: 35px;
+
+}
+
+ .contact .contact_section p {
+     font-size: 17px;
+ }
+ 
+ .contact .contact_section strong {
+    font-size: 20px;
+    color: rgb(73, 144, 148);
+ }
+
+ .contact .contact_form div {
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: first baseline;
+    
+ }
+
+ 
+ .contact .contact_form input {
+    width: 500px;
+    height:40px;
+ }
+
+
+
+ .footer_section {
+    padding: 30px ;
+    padding-bottom: 30px;
+    background-color: rgb(217, 217, 219)
+    
+    
+ }
+
+ .footer p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(209, 203, 203); */
+    height: 80px;
+ }
+
+   /* box-sizing: var(20px); */
+   /* box-sizing: content-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} */
